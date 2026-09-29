@@ -23,13 +23,22 @@
     <hr />
 
     <!-- Formulários -->
-    <form action="">
-      <input type="text" />
-      <input type="number" />
-      <input type="password" />
+    <form action="pages/utils/success.html">
+      <label for="name">Insira o seu nome:</label>
+      <input type="text" placeholder="Nome:" id="name" required />
+      <br />
+      <label for="age">Idade:</label>
+      <input id="age" type="number" value="18" placeholder="idade" />
+      <br />
+      <label for="pass">Palavra passe</label>
+      <input type="password" minlength="6" id="pass" placeholder="Insira a sua pass" required/> 
+      <br />
       <input type="datetime-local" />
       <input type="file" />
       <input type="color" />
+      <br />
+      <button type="submit">Submeter</button>
+      <button type="reset">Limpar</button>
     </form>
 
     <!-- Tabela -->
