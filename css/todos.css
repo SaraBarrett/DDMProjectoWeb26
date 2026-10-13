@@ -12,10 +12,18 @@ li {
     color: white;
 }
 
-ul a{
+ul a {
     background-color: aquamarine;
 }
 
-#clear+button{
+#clear+button {
     background-color: green;
+}
+
+.red {
+    color: red;
+}
+
+h1 {
+    color: blue;
 }
