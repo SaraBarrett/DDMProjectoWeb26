@@ -1,11 +1,32 @@
-p{
+p {
     background-color: #deb887;
 }
 
-h5{
+h5 {
     text-decoration: underline blue dotted;
 }
 
-a{
-    text-decoration:  none;
+a {
+    text-decoration: none;
+}
+
+/* atribuir estilo ao selector id */
+#label-age {
+    color: red;
+}
+
+/* atribuir estilo a uma class: conjunto de elementos */
+.green-bg {
+    background-color: green;
+}
+
+/* atribuir estilo pelos atributos */
+input[type='password'] {
+    background-color: orange;
+}
+
+
+section>h4:hover{
+
+    background-color: blueviolet;
 }

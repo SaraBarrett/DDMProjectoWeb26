@@ -1,0 +1,21 @@
+li {
+    color: blue;
+}
+
+.done {
+    color: gray;
+}
+
+
+#clear {
+    background-color: red;
+    color: white;
+}
+
+ul a{
+    background-color: aquamarine;
+}
+
+#clear+button{
+    background-color: green;
+}
