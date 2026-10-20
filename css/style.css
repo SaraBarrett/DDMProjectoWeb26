@@ -2,6 +2,7 @@ p {
     background-color: #deb887;
 }
 
+
 h5 {
     text-decoration: underline blue dotted;
 }
@@ -38,4 +39,26 @@ section>h4:hover {
     height: 120px;
     padding-top: 10px;
     margin: 10px auto 0px auto;
+}
+
+#my-image {
+    width: 600px;
+    height: 400px;
+}
+
+
+/* media queries */
+@media print {
+    nav {
+        display: none;
+    }
+}
+
+
+@media (max-width: 798px) {
+    #my-image {
+        width: 200px;
+        height: 100px;
+    }
+
 }
